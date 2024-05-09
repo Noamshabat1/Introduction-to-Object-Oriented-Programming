@@ -1,129 +1,58 @@
-samuel.h, no.amshabat1
-345906408, 206515579
+<div align="center">
+  <h1 align="center" style="border-bottom: none"><b>Exercise 4</b> - Ascii Art</h1>
 
-1.Match the UML diagram of the code you created, briefly explain the role of each class in your code
- and the relationships between the departments:
+  <p align="center">
+    <b>Ascii Art</b> is the 4th exercise I've solved in Huji's <b>Introduction to Object-Oriented Programming</b> course.
+    <br>
+    The main idea behind this exercise is to get familiar with <b>Ascii Art</b>, <b>Image Processing</b> and <b>Iterators</b>.
+    <br>
+    <br>
+    <a href="https://github.com/LielAmar/Introduction-to-OOP"><strong>« Home Page</strong></a>
+    <br>
+  </p>
+</div>
 
-    1. **SubImgCharMatcher**: Matches characters to sub-images or to a image based on brightness levels,
-    facilitating the core mechanism for converting images to ASCII art.
+<br>
 
-    2. **CharConverter**: Converts characters into a binary representation using a 2D boolean array
-    (16X16), essential for analyzing how characters visually represent brightness levels in ASCII art.
+<div align="left">
+  <h2 align="left" style="border-bottom: 1px solid gray">Usage</h2>
 
-    3. **SubImage**: creates a an array of sub-images from the original image, on a given resolution the
-    class is used to break down the image into smaller parts, which are then used to match characters to.
+  <p>Run the project on your personal machine</p>
+  <ol align="left">
+    <li>Clone this repository using <code>git clone &lt;url&gt;</code></li>
+    <li>Open the cloned project in your IDE</li>
+    <li>Use JDK 11 to compile all relavant files and run</li>
+  </ol>
+</div>
 
-    4. **PaddingImage**: This class return a new 2D array with the adjustment of every image to the next
-    size to the closest power of two. This is used to ensure that the image is the correct size.
+<br>
 
-    5. **Image**: This class is the main class in the image package for handling and creating a image
-    object. It is used to load the image and to get the image's width and height.
+<div align="left">
+  <h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
 
-    6. **calcSubImageBrightness**: Calculates the brightness of sub-images, a critical step for matching
-     characters based on their visual weight or brightness.
+  <div align="left">
+    <img src="./media/1.png" alt="1" width="300px" />
+    <br/>
+    <img src="./media/2.jpg" alt="2" width="300px" />
+  </div>
+</div>
 
-    7. **Shell**: The class acts as the primary interface for user interaction, handling commands
-     to manipulate characters, change image resolution, load new images, and toggle between console and
-     HTML output for ASCII art. It integrates functionalities from other classes, such as Git for version
-     control and SubImgCharMatcher for character matching based on image brightness. This class
-     orchestrates the ASCII art generation process, responding to user inputs and invoking the necessary
-     components to render ASCII art based on the provided or modified parameters.
+<br>
 
-    8. **Git**: The class is humorously named to suggest it acts like a storage or caching mechanism, but
-     it's actually used to save and retrieve characters' brightness values and ASCII art images based on
-     their names. It uses two HashMaps: one for associating characters with their brightness values and
-     another for storing ASCII art images. This facilitates performance optimization by avoiding
-     recalculating brightness values for characters or regenerating ASCII art that has already been
-     created. This class effectively serves as a database within the application, enhancing efficiency
-     by caching frequently used data.
+<div align="left">
+  <h2 align="left" style="border-bottom: 1px solid gray">Contributing</h2>
 
-    9. **AsciiArtAlgorithm**: Central to the ASCII art conversion process, this class orchestrates the
-    overall algorithm, utilizing other classes to convert images into ASCII art.
+  <p align="left">
+    Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+  </p>
+</div>
 
-    10. **AsciiOutput**, **HtmlAsciiOutput**, **ConsoleAsciiOutput**: Handle the output of the ASCII art,
-     with specific implementations for different mediums (e.g., HTML pages, console).
+<br>
 
-    11. **KeyboardInput**: Handles user input, such as selecting images for conversion or
-    adjusting  parameters for the ASCII art generation process.
+<div align="left">
+  <h2 align="left" style="border-bottom: 1px solid gray">License</h2>
 
-The relationships between these classes suggest a structured approach to converting images into ASCII
-art: images are loaded and possibly adjusted for size (Image, PaddingImage), broken into sub-images
-(SubImage),  analyzed for brightness (calcSubImageBrightness), and matched with  characters
-(SubImgCharMatcher, CharConverter). The output is then  formatted for display (AsciiOutput,
-HtmlAsciiOutput, ConsoleAsciiOutput), with user input potentially guiding the process (KeyboardInput).
-The Shell and Git classes are less directly related to the ASCII art generation and might serve auxiliary
-or support roles.
-
-2.Briefly explain for each Java data structure you used in the code, where you used it, and why you chose
- this particular data structure for the task. Consider runtime and memory complexity considerations in
- the explanation:
-
-- **HashMap**: Utilized in `SubImgCharMatcher` and `Git` for quick access and manipulation of data
-    related to character brightness and ASCII art caching. It offers O(1) average time complexity for
-    insertions, deletions, and lookups, making it ideal for these use cases.
-
-- **PriorityQueue**: Found in `SubImgCharMatcher` for managing brightness values efficiently. It enables
-    the retrieval of minimum and maximum brightness values with O(log n) insertion and O(1) retrieval
-    time, essential for matching characters to brightness levels.
-
-- **Set**: Used in `SubImgCharMatcher` to ensure the uniqueness of characters, benefiting from O(1)
-    average time complexity for basic operations like add, remove, and contains.
-
-- **2D Array of Colors (`Color[][]`)**: Used in `PaddingImage` and `SubImage` for pixel manipulation and
-    sub-image extraction, providing a straightforward way to handle image data.
-
-- **3D Array of Colors (`Color[][][]`)**: In `SubImage` for storing extracted sub-images, allowing for
-    organized manipulation and processing of image parts.
-
-- **2D boolean array**: In `CharConverter` for representing characters in a binary image form, offering a
-    simple and efficient way to analyze character shapes for ASCII art.
-
-- **1D Array (`double[]`)**: In `calcSubImageBrightness` to store brightness values of sub-images,
-    allowing for easy iteration and processing during ASCII art generation.
-
-Each chosen data structure aligns with the goal of optimizing runtime and memory usage, considering the
-specific requirements of tasks like image processing, character to brightness mapping, and ASCII art
-generation.
-
-3.Explain how you used the Java exception engine to handle errors in user input and print error messages:
-In the `Shell.java` class, the Java exception engine is leveraged to handle errors in user input and print
- error messages in various ways:
-
-    1. **Catching Exceptions for User Commands**: The `run` method has a try-catch block that captures
-    exceptions thrown during command processing. If an `IllegalArgumentException` or
-    `IllegalStateException` is thrown, it prints the exception's message to the console. This approach
-    is used to give feedback on specific errors like incorrect command formats or operations that cannot
-    be performed due to the current state of the application.
-
-    2. **IOException Handling**: It also catches `IOException` specifically for image loading errors.
-    If an exception occurs when loading an image (in the `loadNewImage` method called from
-    `handleExtendedCommands`), it prints a predefined error message indicating a problem with the
-     image file.
-
-    3. **Specific Command Error Messages**: Within the `handleExtendedCommands` method, several
-    operations (like adding or removing characters, adjusting resolution, changing the output type) are
-    wrapped in their logic that might throw `IllegalArgumentException` for invalid inputs. if your are
-    trying to use renderAscii without any character loaded, it throws an exception of the type
-    IllegalStateException because we cant execute asciiArt algorithm without characters. The error
-    messages for these exceptions are predefined (e.g., `ADD_ERROR_MESSAGE`, `REMOVE_ERROR_MESSAGE`,
-    `RES_ERROR_MESSAGE`, `OUTPUT_ERROR_MESSAGE`) and are designed to inform the user about the mistake
-    in their input.
-
-    4. **Error Handling in Main Method**: The `main` method contains a try-catch block for handling
-    `IOException` that might be thrown when initializing the `Shell` object with an image file. It prints
-     an error message along with the details of the exception if the specified image file cannot be opened.
-
-This structure ensures that the application can gracefully handle user errors, provide specific feedback,
-and continue running without crashing, making the interaction robust and user-friendly.
-
-4.Did you make any changes to the SubImgCharMatcher class-API? explain why the changes were needed in the
-code:
-
-yes, we have added the clear method to the SubImgCharMatcher class, this method is used to clear the data.
-
-5.If you made changes to the code of the departments provided to you? explain the changes and why they
-were needed. (Note Do not make changes to the code of the classes in ascii_output package as this package
-is not being submitted!)
-
-no, we did not make any changes to the code of the classes in the image package
-
+  <p align="left">
+    <a href="https://choosealicense.com/licenses/mit/">Licensed under MIT</a>
+  </p>
+</div>
