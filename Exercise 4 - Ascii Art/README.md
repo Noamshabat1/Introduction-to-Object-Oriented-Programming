@@ -33,7 +33,7 @@
   <div align="left">
     <img src="./media/AsciiArt.png" alt="1" width="400px" />
     <br/>
-    <img src="./media/noamWebPic.jpg" alt="2" width="300px" />
+    <img src="./media/noamWebPic.jpg" alt="2" width="400px" />
   </div>
 </div>
 
