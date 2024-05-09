@@ -26,7 +26,7 @@
     <li><a href="./Exercise 2 - TicTacToe"><b>Exercise 2 - Tic Tac Toe »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of a Tic Tac Toe Tournament game vs. Humans/Bots</li></ul>
     <br>
-    <li><a href="./Exercise 3 -Bricker"><b>Exercise 3 - Bricker »</b></a></li>
+    <li><a href="./Exercise 3 - Bricker"><b>Exercise 3 - Bricker »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of the Bricker game using DanoGameLab</li></ul>
     <br>
     <li><a href="./Exercise 4 - Ascii Art"><b>Exercise 4 - Ascii Art »</b></a></li>
