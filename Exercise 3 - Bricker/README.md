@@ -7,7 +7,7 @@
     The main idea behind this exercise is to get familiar with <b>Basic Desgin Patterns</b> and <b>Interfaces</b>.
     <br>
     <br>
-    <a href="https://github.com/LielAmar/Introduction-to-OOP"><strong>« Home Page</strong></a>
+    <a href="https://github.com/Noamshabat1/Introduction-to-Object-Oriented-Programming"><strong>« Home Page</strong></a>
     <br>
   </p>
 </div>
