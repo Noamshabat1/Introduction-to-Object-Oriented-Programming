@@ -7,7 +7,7 @@
     The main idea behind this exercise is to get familiar with <b>2D Game Development</b> and more <b>Design Patterns</b>.
     <br>
     <br>
-    <a href="https://github.com/LielAmar/Introduction-to-OOP"><strong>« Home Page</strong></a>
+    <a href="https://github.com/Noamshabat1/Introduction-to-Object-Oriented-Programming"><strong>« Home Page</strong></a>
     <br>
   </p>
 </div>
@@ -34,6 +34,8 @@
     <img src="./media/1.png" alt="1" width="300px" />
     <br/>
     <img src="./media/2.png" alt="2" width="300px" />
+    <br/>
+    <img src="./media/3.png" alt="2" width="300px" />
   </div>
 </div>
 
