@@ -23,10 +23,10 @@
     <li><a href="./Exercise 1 - ChatterBot"><b>Exercise 1 - Chatter Bot »</b></a></li>
     <ul><li style="list-style: none;">⤷ A simple Chat Bot</li></ul>
     <br>
-    <li><a href="./Exercise 1 - ChatterBot"><b>Exercise 2 - Tic Tac Toe Tournament »</b></a></li>
+    <li><a href="./Exercise 2 - TicTacToe"><b>Exercise 2 - Tic Tac Toe Tournament »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of a Tic Tac Toe Tournament game vs. Humans/Bots</li></ul>
     <br>
-    <li><a href="./Exercise 03"><b>Exercise 3 - Bricker »</b></a></li>
+    <li><a href="./Exercise 3 -Bricker"><b>Exercise 3 - Bricker »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of the Bricker game using DanoGameLab</li></ul>
     <br>
     <li><a href="./Exercise 04"><b>Exercise 4 - Ascii Art »</b></a></li>
