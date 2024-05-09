@@ -35,7 +35,7 @@
     <li><a href="./Exercise 5 - 2D Game"><b>Exercise 5 - 2D Game »</b></a></li>
     <ul><li style="list-style: none;">⤷ A Custom-Made 2D game using DanoGameLab</li></ul>
     <br>
-    <li><a href="./Exercise 5 - 2D Game"><b>Exercise 6 - SJava Compiler »</b></a></li>
+    <li><a href="./Exercise 6 - SJava Compiler"><b>Exercise 6 - SJava Compiler »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of a compiler for SJava (Simple Java)</li></ul>
   </ul>
 </div>
@@ -46,17 +46,17 @@
   <h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
 
   <div align="left">
-    <a href="./Exercise 02"><img src="./Exercise 02/media/1.png" alt="tic-tac-toe" width="300px" /></a>
+    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 02/media/1.png" alt="tic-tac-toe" width="300px" /></a>
     <br>
-    <a href="./Exercise 03"><img src="./Exercise 03/media/1.png" alt="bricker-game" width="300px" /></a>
+    <a href="./Exercise 3 -Bricker"><img src="./Exercise 03/media/1.png" alt="bricker-game" width="300px" /></a>
     <br>
-    <a href="./Exercise 04"><img src="./Exercise 04/media/1.jpg" alt="ascii-art-before" width="300px" /></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 04/media/1.jpg" alt="ascii-art-before" width="300px" /></a>
     <br>
-    <a href="./Exercise 04"><img src="./Exercise 04/media/1.png" alt="ascii-art-after" width="300px" /></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 04/media/1.png" alt="ascii-art-after" width="300px" /></a>
     <br>
-    <a href="./Exercise 05"><img src="./Exercise 05/media/1.png" alt="pepse-game-1" width="300px" /></a>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 05/media/1.png" alt="pepse-game-1" width="300px" /></a>
     <br>
-    <a href="./Exercise 05"><img src="./Exercise 05/media/2.png" alt="pepse-game-2" width="300px" /></a>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 05/media/2.png" alt="pepse-game-2" width="300px" /></a>
   </div>
 </div>
 
