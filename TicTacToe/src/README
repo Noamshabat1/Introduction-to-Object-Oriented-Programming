@@ -1,0 +1,72 @@
+no.amshabat1
+206515579
+
+answering questions:
+
+1)
+Strategy Explanation:
+1. WhateverPlayer strategy: 'WhateverPlayer' does not follow any strategy and randomly selects positions on
+   the board to place their mark.
+
+2. CleverPlayer Strategy: 'CleverPlayer' starts filling the board from the top left corner
+   (row '0', column '0') and proceeds systematically across the rows and then down the columns.
+
+3. GeniusPlayer's Strategy:
+  - First Move: 'GeniusPlayer' deliberately skips the first column during its first turn.
+    This means if 'GeniusPlayer' goes first, it leaves the top left corner open, potentially luring
+    'CleverPlayer' into a trap.
+  - Subsequent Moves: After the first move, 'GeniusPlayer' switches to a standard filling strategy, covering
+    all columns. starting in the columns hes already in (row '0', column '1').
+
+    .........................................................................................................
+    In defeating CleverPlayer
+    The strategy of 'GeniusPlayer' is specifically crafted to counteract the strategy of 'CleverPlayer'.
+    Let's break down how this works:
+
+    1. CleverPlayer Strategy: 'CleverPlayer' starts filling the board from the top left corner
+       (row '0', column '0') and proceeds systematically across the rows and then down the columns.
+
+    2. GeniusPlayer's Counter-Strategy:
+    - First Move: 'GeniusPlayer' deliberately skips the first column during its first turn. This means
+      if 'GeniusPlayer' goes first, it leaves the top left corner (the starting point for 'CleverPlayer')
+      open, potentially luring 'CleverPlayer' into a trap.
+
+    - Subsequent Moves: After the first move, 'GeniusPlayer' switches to a standard filling strategy,
+      covering all columns. This change in strategy can be unpredictable for 'CleverPlayer', which follows a
+      predictable pattern.
+
+    In conclusion, while 'GeniusPlayer' strategy does not guarantee a victory against 'WhateverPlayer' in
+    every scenario,(but in a big probability) it offers a tactical approach against 'CleverPlayer' that
+    exploit the predictable pattern of 'CleverPlayer', and guarantee a victory in every round!.
+    .........................................................................................................
+
+2) In this project I have implemented few approach's and uses of fundamental pillars of OOP, particularly:
+   abstraction, polymorphism, encapsulation and information hiding. Let's break down how each of these pillars
+   is involved:
+
+   1. Abstraction
+   Abstraction in OOP allows you to focus on the 'what' over the 'how.' By using an interface for players,
+   you define a set of behaviors (methods) that all player classes must implement, without specifying how they
+   should be implemented. This abstraction in our project allowed me to implement different types of players
+   (like 'HumanPlayer' or any 'BotPlayer') to be treated uniformly at a high level.
+
+   2. Polymorphism
+   Polymorphism is the ability of an object to take on many forms. When player classes implement a common
+   interface, they can be used interchangeably within the game, even though each class may have a different
+   underlying implementation. For example, this abstraction in our project allowed me to implement different
+   players where each object of 'HumanPlayer' or any 'BotPlayer' is being treated the same in the eyes of the
+   game.
+
+   3. Encapsulation
+   Encapsulation is the ability to implementing an interface can help in encapsulating behavior. Each player
+   class encapsulates its specific behavior while exposing a common set of functionalities to the outside
+   world.
+
+       3.5 Information Hiding
+       Continuing the Encapsulation, this also hides the internal implementation details and ensures
+       that other parts of the codebase interact with the agreed API and API objects only through their
+       exposed ( public ) methods.
+
+   4. Open/Closed Principle
+   Because we have implemented our code in this form we are inlined with the principal and can use it in our
+   project.
