@@ -46,19 +46,23 @@
   <h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
 
   <div align="left">
-    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 02/media/1.png" alt="tic-tac-toe" width="300px" /></a>
+    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe" width="300px" /></a>
     <br>
-    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 02/media/2.png" alt="tic-tac-toe" width="300px" /></a>
+    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 2 - TicTacToe/media/2.png" alt="tic-tac-toe" width="300px" /></a>
     <br>
-    <a href="./Exercise 3 -Bricker"><img src="./Exercise 03/media/1.png" alt="bricker-game" width="300px" /></a>
+    <a href="./Exercise 3 -Bricker"><img src="./Exercise 3 -Bricker/media/1.png" alt="bricker-game" width="300px" /></a>
     <br>
-    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 04/media/1.jpg" alt="ascii-art-before" width="300px" /></a>
+    <a href="./Exercise 3 -Bricker"><img src="./Exercise 3 -Bricker/media/2.png" alt="bricker-game" width="300px" /></a>
     <br>
-    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 04/media/1.png" alt="ascii-art-after" width="300px" /></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/1.jpg" alt="ascii-art-before" width="300px" /></a>
     <br>
-    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 05/media/1.png" alt="pepse-game-1" width="300px" /></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/1.png" alt="ascii-art-after" width="300px" /></a>
     <br>
-    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 05/media/2.png" alt="pepse-game-2" width="300px" /></a>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse-game-1" width="300px" /></a>
+    <br>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/2.png" alt="pepse-game-2" width="300px" /></a>
+    <br>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/3.png" alt="pepse-game-3" width="300px" /></a>
   </div>
 </div>
 
