@@ -48,6 +48,8 @@
   <div align="left">
     <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 02/media/1.png" alt="tic-tac-toe" width="300px" /></a>
     <br>
+    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 02/media/2.png" alt="tic-tac-toe" width="300px" /></a>
+    <br>
     <a href="./Exercise 3 -Bricker"><img src="./Exercise 03/media/1.png" alt="bricker-game" width="300px" /></a>
     <br>
     <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 04/media/1.jpg" alt="ascii-art-before" width="300px" /></a>
