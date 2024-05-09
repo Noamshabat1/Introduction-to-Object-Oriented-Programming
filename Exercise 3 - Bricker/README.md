@@ -32,6 +32,7 @@
 
   <div align="left">
     <img src="./media/1.png" alt="1" width="300px" />
+    <img src="./media/2.png" alt="1" width="300px" />
   </div>
 </div>
 
