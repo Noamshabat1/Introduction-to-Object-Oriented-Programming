@@ -48,9 +48,9 @@
   <div align="left">
     <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe" width="300px" /></a>
     <br>
-    <a href="./Exercise 3 -Bricker"><img src="./Exercise 3 -Bricker/media/1.png" alt="bricker-game" width="300px" /></a>
+    <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/1.png" alt="bricker-game" width="300px" /></a>
     <br>
-    <a href="./Exercise 3 -Bricker"><img src="./Exercise 3 -Bricker/media/2.png" alt="bricker-game" width="300px" /></a>
+    <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/2.png" alt="bricker-game" width="300px" /></a>
     <br>
     <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/AsciiArt.png.jpg" alt="ascii-art-before" width="300px" /></a>
     <br>
