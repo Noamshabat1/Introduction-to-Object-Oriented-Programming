@@ -32,10 +32,10 @@
     <li><a href="./Exercise 4 - Ascii Art"><b>Exercise 4 - Ascii Art »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of an Image to Ascii convertor</li></ul>
     <br>
-    <li><a href="./Exercise 05"><b>Exercise 5 - 2D Game »</b></a></li>
+    <li><a href="./Exercise 5 - 2D Game"><b>Exercise 5 - 2D Game »</b></a></li>
     <ul><li style="list-style: none;">⤷ A Custom-Made 2D game using DanoGameLab</li></ul>
     <br>
-    <li><a href="./Exercise 06"><b>Exercise 6 - SJava Compiler »</b></a></li>
+    <li><a href="./Exercise 5 - 2D Game"><b>Exercise 6 - SJava Compiler »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of a compiler for SJava (Simple Java)</li></ul>
   </ul>
 </div>
