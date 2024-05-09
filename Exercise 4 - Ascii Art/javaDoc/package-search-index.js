@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ascii_art"},{"l":"ascii_output"},{"l":"image"},{"l":"image_char_matching"}];updateSearchResults();
