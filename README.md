@@ -54,9 +54,9 @@
     <br>
     <a href="./Exercise 3 -Bricker"><img src="./Exercise 3 -Bricker/media/2.png" alt="bricker-game" width="300px" /></a>
     <br>
-    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/1.jpg" alt="ascii-art-before" width="300px" /></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/AsciiArt.png.jpg" alt="ascii-art-before" width="300px" /></a>
     <br>
-    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/1.png" alt="ascii-art-after" width="300px" /></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg.png" alt="ascii-art-after" width="300px" /></a>
     <br>
     <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse-game-1" width="300px" /></a>
     <br>
