@@ -1,10 +1,10 @@
 <div align="center">
-  <h1 align="center" style="border-bottom: none"><b>Exercise 2</b> - Tic Tac Toe Tournament</h1>
+  <h1 align="center" style="border-bottom: none"><b>Exercise 3</b> - Bricker</h1>
 
   <p align="center">
-    <b>Tic Tac Toe Tournament</b> is the 2nd exercise I've solved in Huji's <b>Introduction to Object-Oriented Programming</b> course.
+    <b>Bricker</b> is the 3rd exercise I've solved in Huji's <b>Introduction to Object-Oriented Programming</b> course.
     <br>
-    The main idea behind this exercise is to get familiar with <b>Basic Desgin Patterns</b> and <b>Interfaces</b>.
+    The main idea behind this exercise is to get familiar with <b>Inheritance</b>, <b>Basic Game Development</b> and <b>DanoGameLab</b>.
     <br>
     <br>
     <a href="https://github.com/Noamshabat1/Introduction-to-Object-Oriented-Programming"><strong>« Home Page</strong></a>
@@ -32,7 +32,6 @@
 
   <div align="left">
     <img src="./media/1.png" alt="1" width="300px" />
-    <img src="./media/2.png" alt="1" width="300px" />
   </div>
 </div>
 
