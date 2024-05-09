@@ -31,7 +31,7 @@
   <h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
 
   <div align="left">
-    <img src="./media/AsciiArt.png" alt="1" width="300px" />
+    <img src="./media/AsciiArt.png" alt="1" width="400px" />
     <br/>
     <img src="./media/noamWebPic.jpg" alt="2" width="300px" />
   </div>
