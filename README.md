@@ -10,8 +10,8 @@
     It lasted <b>12 weeks</b>, in which, we've submitted a total of 6 exercises in various fields and topics.
     <br>
     <br>
-    More information can be found <a href="https://shnaton.huji.ac.il/index.php/NewSyl/67315/2/2022/">Here</a>.
-  </p>
+    More information can be found <a href="https://shnaton.huji.ac.il/index.php/NewSyl/67125/2/2022/">Here</a>.
+  </p> 
 </div>
 
 <br>
