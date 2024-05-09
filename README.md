@@ -20,7 +20,7 @@
   <h2 align="left" style="border-bottom: 1px solid gray">Exercises</h2>
 
   <ul align="left">
-    <li><a href="./Exercise 01"><b>Exercise 1 - Chatter Bot »</b></a></li>
+    <li><a href="./Exercise 1 - ChatterBot"><b>Exercise 1 - Chatter Bot »</b></a></li>
     <ul><li style="list-style: none;">⤷ A simple Chat Bot</li></ul>
     <br>
     <li><a href="./Exercise 1 - ChatterBot"><b>Exercise 2 - Tic Tac Toe Tournament »</b></a></li>
