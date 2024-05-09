@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"bricker.brick_strategies"},{"l":"bricker.gameobjects"},{"l":"bricker.main"},{"l":"bricker.utils"}]
