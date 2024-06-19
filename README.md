@@ -1,17 +1,18 @@
+
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hebrew_University_Logo.svg/1200px-Hebrew_University_Logo.svg.png" alt="huji-logo" height="150px" />
   <h1 align="center" style="border-bottom: none"><b>Introduction to Object-Oriented Programming</b></h1>
 
   <p align="left">
-    As a Computer Science Student in the <a href="https://new.huji.ac.il/"><b>Hebrew University of Jerusalem</b></a>, I was required to take the <b>Introduction to Object-Oriented Programming</b> course.
+    As a Computer Science Student at the <a href="https://new.huji.ac.il/"><b>Hebrew University of Jerusalem</b></a>, I took the <b>Introduction to Object-Oriented Programming</b> course.
     <br>
-    This is a course that teaches you the basic and advanced concepts of Object-Oriented Programming, Design Patterns, OOP Principles, Generic Programming, and Regex, using <b>Java</b> as the main language.
+    This course covers the basic and advanced concepts of Object-Oriented Programming, Design Patterns, OOP Principles, Generic Programming, and Regex, using <b>Java</b> as the main language.
     <br>
-    It lasted <b>12 weeks</b>, in which, we've submitted a total of 6 exercises in various fields and topics.
+    It lasted <b>12 weeks</b>, during which we submitted a total of 6 exercises covering various topics.
     <br>
     <br>
-    More information can be found <a href="https://shnaton.huji.ac.il/index.php/NewSyl/67125/2/2022/">Here</a>.
-  </p> 
+    More information can be found <a href="https://shnaton.huji.ac.il/index.php/NewSyl/67125/2/2022/">here</a>.
+  </p>
 </div>
 
 <br>
@@ -30,10 +31,10 @@
     <ul><li style="list-style: none;">⤷ Implementation of the Bricker game using DanoGameLab</li></ul>
     <br>
     <li><a href="./Exercise 4 - Ascii Art"><b>Exercise 4 - Ascii Art »</b></a></li>
-    <ul><li style="list-style: none;">⤷ Implementation of an Image to Ascii convertor</li></ul>
+    <ul><li style="list-style: none;">⤷ Implementation of an Image to Ascii converter</li></ul>
     <br>
     <li><a href="./Exercise 5 - 2D Game"><b>Exercise 5 - 2D Game »</b></a></li>
-    <ul><li style="list-style: none;">⤷ A Custom-Made 2D game using DanoGameLab</li></ul>
+    <ul><li style="list-style: none;">⤷ A custom-made 2D game using DanoGameLab</li></ul>
     <br>
     <li><a href="./Exercise 6 - SJava Compiler"><b>Exercise 6 - SJava Compiler »</b></a></li>
     <ul><li style="list-style: none;">⤷ Implementation of a compiler for SJava (Simple Java)</li></ul>
