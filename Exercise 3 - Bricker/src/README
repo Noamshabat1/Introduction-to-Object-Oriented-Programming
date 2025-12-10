@@ -1,6 +1,4 @@
-samuel.h, no.amshabat1
-345906408, 206515579
-
+noam shabat
 
 1. Write what design pattern you have chosen in the 1.7 part that allows to remove the bricks from the
 game, and explain what are the pros and cons of your choice of design ?
@@ -171,4 +169,5 @@ The BrickerGameManager class received several new public methods to support the 
  uniq power of the camera.
 
 we have also added a new package called utils. that the main purposes of this package is to hold all of
+
 the constants of the interr game. this help in cases that we want to adjust our params.
