@@ -43,78 +43,24 @@
 
 <br>
 
-<!-- <div align="left">
-  <h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
-
-  <div align="left">
-    <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe" width="300px" /></a>
-    <br>
-    <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/1.png" alt="bricker-game" width="300px" /></a>
-    <br>
-    <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/2.png" alt="bricker-game" width="300px" /></a>
-    <br>
-    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt="ascii-art-before" width="300px" /></a>
-    <br>
-    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt="ascii-art-after" width="300px" /></a>
-    <br>
-    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse-game-1" width="300px" /></a>
-    <br>
-    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/2.png" alt="pepse-game-2" width="300px" /></a>
-    <br>
-    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/3.png" alt="pepse-game-3" width="300px" /></a>
-  </div>
-</div> -->
-
 <style>
-  .media { display: flex; flex-direction: column; gap: 16px; }        /* space between projects */
-  .project-row { display: flex; gap: 12px; align-items: flex-start; }  /* images in one row */
-  .project-row img { width: 300px; height: auto; display: block; }
+  .media { display: flex; flex-wrap: wrap; gap: 12px; }
+  .media a img { width: 300px; height: auto; display: block; }
+  .row-break { flex-basis: 100%; height: 0; } /* forces a new line between projects */
 </style>
 
-<div align="left">
-  <h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
-
-  <div class="media">
-    <!-- Project: TicTacToe -->
-    <div class="project-row">
-      <a href="./Exercise 2 - TicTacToe">
-        <img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe" />
-      </a>
-    </div>
-
-    <!-- Project: Bricker -->
-    <div class="project-row">
-      <a href="./Exercise 3 - Bricker">
-        <img src="./Exercise 3 - Bricker/media/1.png" alt="bricker-game 1" />
-      </a>
-      <a href="./Exercise 3 - Bricker">
-        <img src="./Exercise 3 - Bricker/media/2.png" alt="bricker-game 2" />
-      </a>
-    </div>
-
-    <!-- Project: Ascii Art -->
-    <div class="project-row">
-      <a href="./Exercise 4 - Ascii Art">
-        <img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt="ascii-art before" />
-      </a>
-      <a href="./Exercise 4 - Ascii Art">
-        <img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt="ascii-art after" />
-      </a>
-    </div>
-
-    <!-- Project: 2D Game -->
-    <div class="project-row">
-      <a href="./Exercise 5 - 2D Game">
-        <img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse-game 1" />
-      </a>
-      <a href="./Exercise 5 - 2D Game">
-        <img src="./Exercise 5 - 2D Game/media/2.png" alt="pepse-game 2" />
-      </a>
-      <a href="./Exercise 5 - 2D Game">
-        <img src="./Exercise 5 - 2D Game/media/3.png" alt="pepse-game 3" />
-      </a>
-    </div>
-  </div>
+<div class="media">
+  <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 2 - TicTacToe/media/1.png" alt=""></a>
+  <span class="row-break"></span>
+  <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/1.png" alt=""></a>
+  <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/2.png" alt=""></a>
+  <span class="row-break"></span>
+  <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt=""></a>
+  <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt=""></a>
+  <span class="row-break"></span>
+  <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/1.png" alt=""></a>
+  <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/2.png" alt=""></a>
+  <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/3.png" alt=""></a>
 </div>
 
 
