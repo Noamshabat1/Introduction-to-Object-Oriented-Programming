@@ -17,93 +17,40 @@
 
 <br>
 
-<div align="left">
-  <h2 align="left" style="border-bottom: 1px solid gray">Exercises</h2>
+<style>
+  .media { display: grid; gap: 20px; }
+  .project-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
+  .project-row img {
+    width: 300px; height: auto; display: block;
+    border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  }
+  @media (max-width: 700px) { .project-row img { width: 100%; max-width: 340px; } }
+</style>
 
-  <ul align="left">
-    <li><a href="./Exercise 1 - ChatterBot"><b>Exercise 1 - Chatter Bot »</b></a></li>
-    <ul><li style="list-style: none;">⤷ A simple Chat Bot</li></ul>
-    <br>
-    <li><a href="./Exercise 2 - TicTacToe"><b>Exercise 2 - Tic Tac Toe »</b></a></li>
-    <ul><li style="list-style: none;">⤷ Implementation of a Tic Tac Toe Tournament game vs. Humans/Bots</li></ul>
-    <br>
-    <li><a href="./Exercise 3 - Bricker"><b>Exercise 3 - Bricker »</b></a></li>
-    <ul><li style="list-style: none;">⤷ Implementation of the Bricker game using DanoGameLab</li></ul>
-    <br>
-    <li><a href="./Exercise 4 - Ascii Art"><b>Exercise 4 - Ascii Art »</b></a></li>
-    <ul><li style="list-style: none;">⤷ Implementation of an Image to Ascii converter</li></ul>
-    <br>
-    <li><a href="./Exercise 5 - 2D Game"><b>Exercise 5 - 2D Game »</b></a></li>
-    <ul><li style="list-style: none;">⤷ A custom-made 2D game using DanoGameLab</li></ul>
-    <br>
-    <li><a href="./Exercise 6 - SJava Compiler"><b>Exercise 6 - SJava Compiler »</b></a></li>
-    <ul><li style="list-style: none;">⤷ Implementation of a compiler for SJava (Simple Java)</li></ul>
-  </ul>
+<h2>Media</h2>
+<div class="media">
+  <div class="project-row">
+    <a href="./Exercise 2 - TicTacToe">
+      <img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe">
+    </a>
+  </div>
+
+  <div class="project-row">
+    <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/1.png" alt="bricker 1"></a>
+    <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/2.png" alt="bricker 2"></a>
+  </div>
+
+  <div class="project-row">
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt="ascii before"></a>
+    <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt="ascii after"></a>
+  </div>
+
+  <div class="project-row">
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse 1"></a>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/2.png" alt="pepse 2"></a>
+    <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/3.png" alt="pepse 3"></a>
+  </div>
 </div>
-
-<br>
-
-<h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
-
-<table>
-  <!-- TicTacToe (one image in the row) -->
-  <tr>
-    <td>
-      <a href="./Exercise 2 - TicTacToe">
-        <img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe" width="300">
-      </a>
-    </td>
-  </tr>
-
-  <!-- Bricker (two images, same row) -->
-  <tr>
-    <td>
-      <a href="./Exercise 3 - Bricker">
-        <img src="./Exercise 3 - Bricker/media/1.png" alt="bricker-game 1" width="300">
-      </a>
-    </td>
-    <td>
-      <a href="./Exercise 3 - Bricker">
-        <img src="./Exercise 3 - Bricker/media/2.png" alt="bricker-game 2" width="300">
-      </a>
-    </td>
-  </tr>
-
-  <!-- Ascii Art (two images, same row) -->
-  <tr>
-    <td>
-      <a href="./Exercise 4 - Ascii Art">
-        <img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt="ascii-art before" width="300">
-      </a>
-    </td>
-    <td>
-      <a href="./Exercise 4 - Ascii Art">
-        <img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt="ascii-art after" width="300">
-      </a>
-    </td>
-  </tr>
-
-  <!-- 2D Game (three images, same row) -->
-  <tr>
-    <td>
-      <a href="./Exercise 5 - 2D Game">
-        <img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse-game 1" width="300">
-      </a>
-    </td>
-    <td>
-      <a href="./Exercise 5 - 2D Game">
-        <img src="./Exercise 5 - 2D Game/media/2.png" alt="pepse-game 2" width="300">
-      </a>
-    </td>
-    <td>
-      <a href="./Exercise 5 - 2D Game">
-        <img src="./Exercise 5 - 2D Game/media/3.png" alt="pepse-game 3" width="300">
-      </a>
-    </td>
-  </tr>
-</table>
-
-
 
 <br>
 
