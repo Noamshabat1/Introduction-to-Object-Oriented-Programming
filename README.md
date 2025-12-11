@@ -16,17 +16,6 @@
 </div>
 
 <br>
-
-<style>
-  .media { display: grid; gap: 20px; }
-  .project-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
-  .project-row img {
-    width: 300px; height: auto; display: block;
-    border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
-  }
-  @media (max-width: 700px) { .project-row img { width: 100%; max-width: 340px; } }
-</style>
-
 <h2>Media</h2>
 <div class="media">
   <div class="project-row">
