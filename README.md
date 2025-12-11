@@ -43,25 +43,66 @@
 
 <br>
 
-<style>
-  .media { display: flex; flex-wrap: wrap; gap: 12px; }
-  .media a img { width: 300px; height: auto; display: block; }
-  .row-break { flex-basis: 100%; height: 0; } /* forces a new line between projects */
-</style>
+<h2 align="left" style="border-bottom: 1px solid gray">Media</h2>
 
-<div class="media">
-  <a href="./Exercise 2 - TicTacToe"><img src="./Exercise 2 - TicTacToe/media/1.png" alt=""></a>
-  <span class="row-break"></span>
-  <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/1.png" alt=""></a>
-  <a href="./Exercise 3 - Bricker"><img src="./Exercise 3 - Bricker/media/2.png" alt=""></a>
-  <span class="row-break"></span>
-  <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt=""></a>
-  <a href="./Exercise 4 - Ascii Art"><img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt=""></a>
-  <span class="row-break"></span>
-  <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/1.png" alt=""></a>
-  <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/2.png" alt=""></a>
-  <a href="./Exercise 5 - 2D Game"><img src="./Exercise 5 - 2D Game/media/3.png" alt=""></a>
-</div>
+<table>
+  <!-- TicTacToe (one image in the row) -->
+  <tr>
+    <td>
+      <a href="./Exercise 2 - TicTacToe">
+        <img src="./Exercise 2 - TicTacToe/media/1.png" alt="tic-tac-toe" width="300">
+      </a>
+    </td>
+  </tr>
+
+  <!-- Bricker (two images, same row) -->
+  <tr>
+    <td>
+      <a href="./Exercise 3 - Bricker">
+        <img src="./Exercise 3 - Bricker/media/1.png" alt="bricker-game 1" width="300">
+      </a>
+    </td>
+    <td>
+      <a href="./Exercise 3 - Bricker">
+        <img src="./Exercise 3 - Bricker/media/2.png" alt="bricker-game 2" width="300">
+      </a>
+    </td>
+  </tr>
+
+  <!-- Ascii Art (two images, same row) -->
+  <tr>
+    <td>
+      <a href="./Exercise 4 - Ascii Art">
+        <img src="./Exercise 4 - Ascii Art/media/AsciiArt.png" alt="ascii-art before" width="300">
+      </a>
+    </td>
+    <td>
+      <a href="./Exercise 4 - Ascii Art">
+        <img src="./Exercise 4 - Ascii Art/media/noamWebPic.jpg" alt="ascii-art after" width="300">
+      </a>
+    </td>
+  </tr>
+
+  <!-- 2D Game (three images, same row) -->
+  <tr>
+    <td>
+      <a href="./Exercise 5 - 2D Game">
+        <img src="./Exercise 5 - 2D Game/media/1.png" alt="pepse-game 1" width="300">
+      </a>
+    </td>
+    <td>
+      <a href="./Exercise 5 - 2D Game">
+        <img src="./Exercise 5 - 2D Game/media/2.png" alt="pepse-game 2" width="300">
+      </a>
+    </td>
+    <td>
+      <a href="./Exercise 5 - 2D Game">
+        <img src="./Exercise 5 - 2D Game/media/3.png" alt="pepse-game 3" width="300">
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 
 <br>
